@@ -1,5 +1,10 @@
 function reverseArray(arr) {
-  // Add code.
+  let list = [];
+ for (let i = 0; i < arr.length; i++) {
+  let x = list[i];
+  list.unshift(x);
+ }
+ return list;
 }
 
 function reverseArrayInPlace(arr) {
